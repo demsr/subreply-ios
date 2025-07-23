@@ -21,6 +21,11 @@
 			path = subreply;
 			sourceTree = "<group>";
 		};
+		959E59B32E316938008CFB26 /* images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +42,7 @@
 		959E598E2E315209008CFB26 = {
 			isa = PBXGroup;
 			children = (
+				959E59B32E316938008CFB26 /* images */,
 				959E59B12E316774008CFB26 /* README.md */,
 				959E59992E315209008CFB26 /* subreply */,
 				959E59982E315209008CFB26 /* Products */,
@@ -68,6 +74,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				959E59992E315209008CFB26 /* subreply */,
+				959E59B32E316938008CFB26 /* images */,
 			);
 			name = subreply;
 			packageProductDependencies = (
