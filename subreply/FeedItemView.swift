@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct FeedItemView: View {
+    
+    @State var feeditem : FeedItem
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text(feeditem.content)
+            Text(feeditem.timestamp)
+            Text(feeditem.created_by.username)
+        }
     }
 }
 
 #Preview {
-    FeedItemView()
+    
+    var mock = MockData()
+    
+    FeedItemView(feeditem: mock.getFeedItem())
 }
